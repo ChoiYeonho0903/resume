@@ -1,43 +1,43 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: ChoiYeonho0903/resume
+favicon: images/favicon.png
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: 최연호 (CHOI YEONHO)
+title: Java Backend Enginner
+email: 903yh@naver.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+# phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: https://choiyeonho903.tistory.com/
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+# twitter_username: jekyllrb
+github_username:  ChoiYeonho0903
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,66 +50,153 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+# Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Java Backend 개발자를 꿈꾸며 공부하고 있는 학생입니다.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  **클린코드를 지향합니다.**
+
+  유지보수하기 쉬운 코드를 만들기 위해 코드를 객체지향적으로 설계하고 테스트 코드을 통하여 코드의 품질을 높이는데 노력해야 한다고 생각합니다.
+
+  **배운 지식을 정리하고 공유하는 것을 지향합니다.**
+
+  강의 또는 프로젝트를 경험하면서 새롭게 배운 내용을 Notion, Blog에 정리 합니다.
+  또한 이러한 지식을 팀원들과 공유하면서 이슈 해결 능력을 기르고 지식을 쌓을 수 있다고 생각합니다.
+
+  **소통하는 개발자가 되고 싶습니다.**
+  
+  원할한 소통을 위해서 팀원들의 이야기를 경청하고 저의 생각을 명확히 설명할 줄 알아야 한다고 생각합니다.
+  적극적이고 자유로운 소통을 통해 이슈를 해결해 나아갈 것입니다.
+
 
 content:
+  - title: Skill
+    layout: list
+    content:
+      - layout: top-left
+        title: BackEnd
+        description: | # this will include new lines to allow paragraphs
+          - Java
+          - Spring Boot, Spring MVC
+          - Spring JDBC Template, JPA, Spring Data JPA
+      - layout: top-left
+        title: DataBase
+        description: | # this will include new lines to allow paragraphs
+          - MySQL
+          - H2
+      - layout: top-left
+        title: FrontEnd
+        description: | # this will include new lines to allow paragraphs
+          - HTML/CSS
+      - layout: top-left
+        title: ETC
+        description: | # this will include new lines to allow paragraphs
+          - Git/Github
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: Coffee 주문 프로젝트
+        caption: 2022. 04. 25. ~ 2022. 05. 06.
+        link: https://github.com/ChoiYeonho0903/coffee-store-project
         link_text: Link Text
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title:  ChoiYeonho0903/coffee-store-project
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
+            url: https://github.com/ChoiYeonho0903/coffee-store-project
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
+          <mark>Coffee 주문 프로젝트</mark>   
+          - 프로그래머스 데브코스 1차 프로젝트
+          - 개인프로젝트
+          - Skill Stack
+            - Front : React
+            - Back : Java, Spring Boot, JdbcTemplate, MySQL  
+          
+      - layout: top-left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Blog-Project
+        caption: 2022. 03. 01 ~ 2022. 03. 14
+        link: https://github.com/ChoiYeonho0903/codepresso-blog
+        link_text: Link Text
+        additional_links:
+          - title:  ChoiYeonho0903/codepresso-blog
+            icon: fab fa-github
+            url: https://github.com/ChoiYeonho0903/codepresso-blog
+        description: | # this will include new lines to allow paragraphs
+          <mark>Blog 구현 프로젝트</mark>
+          - codepresso Java 웹개발 체험단 활동 프로젝트
+          - 개인프로젝트
+          - Skill Stack
+            - Java, Spring Boot, MyBatis, H2
+
+      - layout: top-left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: OneDay
+        caption: 2021. 08. 01  ~ 2021. 08. 14.
+        link: https://github.com/Team-OneDay/OneDay
+        link_text: Link Text
+        additional_links:
+          - title: Team-OneDay/OneDay
+            icon: fab fa-github
+            url: https://github.com/Team-OneDay/OneDay
+        description: | # this will include new lines to allow paragraphs
+          <mark>OneDay 프로젝트</mark>
+          - 멋쟁이사자처럼 9기 해커톤
+          - 인스타그램 원데이클래스 Post들을 크롤링해서 분류하여 종합하여 보여주는 웹 서비스
+          - Skill Stack
+            - Node.js(Express), Javascript, Html/Css, MySQL
+          - 팀 구성 : Frontend 2, Backend 1, Crawling 1
+            - 나의 역할 : FrontEnd (HTML/CSS 이용해서 웹페이지 구현, Javascript, Axios 이용해서 data 처리)
+
+  - title: Experiences
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+      - layout: top-left
+        title: 프로그래머스 백엔드 데브코스 2기
+        # sub_title: Job title
+        caption: 2022. 03. 18. ~
+        link: https://programmers.co.kr/learn/courses/13478
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          <mark>프로그래머스 진행하는 백엔드 부트캠프</mark>
+          - Java, Spring Framework, JPA, Spring Security 학습        
+
+      - layout: top-left
+        title: 코드프레소 Java 웹 개발 체험단
+        # sub_title: Job title
+        caption: 2022. 01. 03. ~ 2022. 04. 10.
+        link: https://www.codepresso.kr/specialTrack/24
+        description: | # this will include new lines to allow paragraphs
+          <mark>code.presso에서 진행하는 Java 웹 개발 교육</mark>
+          - Java, Spring Framework, MyBatis 기반의 웹 개발 학습
+          - 블로그 개발 개인 프로젝트
+      
+      - layout: top-left
+        title: 멋쟁이사자처럼 9기
+        # sub_title: Job title
+        caption: 2021. 03. ~ 2021. 12.
+        link: https://www.likelion.net/univ
+        description: | # this will include new lines to allow paragraphs
+          <mark>멋쟁이사차럼 연계 교내 개발 동아리</mark>
+          - HTML, CSS, Python, Django 프로그래밍 교육 학습
+          - 아이디어톤, 해커톤 참여
+      
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+      - layout: top-left
+        title: 숭실대학교
+        sub_title: Bachelor
+        caption: 2015.03 ~ 2022.08 (졸업예정)
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+          - 주전공 : 화학공학과
+          - 복수전공 : 컴퓨터학부
+        #  - 평균 학점 : 4.03 / 4.5
 
 # Footer
 footer_show_references: true
