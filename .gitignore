@@ -3,3 +3,5 @@
 .sass-cache
 *.code-workspace
 vendor
+
+.idea

@@ -103,7 +103,7 @@ content:
         title: Coffee 주문 프로젝트
         caption: 2022. 04. 25. ~ 2022. 05. 06.
         link: https://github.com/ChoiYeonho0903/coffee-store-project
-        link_text: Link Text
+        link_text: Github Link
         additional_links:
           - title:  ChoiYeonho0903/coffee-store-project
             icon: fab fa-github
@@ -111,10 +111,14 @@ content:
         description: | # this will include new lines to allow paragraphs
           <mark>Coffee 주문 프로젝트</mark>   
           - 프로그래머스 데브코스 1차 프로젝트
-          - 개인프로젝트
           - Skill Stack
             - Front : React
-            - Back : Java, Spring Boot, JdbcTemplate, MySQL  
+            - Back : Java, Spring Boot, JdbcTemplate, MySQL
+          - Contribution
+            - 상품 주문 관리 Rest API 개발
+            - 서버사이드 Validation 구현
+            - React을 사용해서 상품 주문 Front 개발
+
           
       - layout: top-left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
@@ -122,7 +126,7 @@ content:
         title: Blog-Project
         caption: 2022. 03. 01 ~ 2022. 03. 14
         link: https://github.com/ChoiYeonho0903/codepresso-blog
-        link_text: Link Text
+        link_text: Github Link
         additional_links:
           - title:  ChoiYeonho0903/codepresso-blog
             icon: fab fa-github
@@ -130,35 +134,16 @@ content:
         description: | # this will include new lines to allow paragraphs
           <mark>Blog 구현 프로젝트</mark>
           - codepresso Java 웹개발 체험단 활동 프로젝트
-          - 개인프로젝트
           - Skill Stack
             - Java, Spring Boot, MyBatis, H2
-
-      - layout: top-left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: OneDay
-        caption: 2021. 08. 01  ~ 2021. 08. 14.
-        link: https://github.com/Team-OneDay/OneDay
-        link_text: Link Text
-        additional_links:
-          - title: Team-OneDay/OneDay
-            icon: fab fa-github
-            url: https://github.com/Team-OneDay/OneDay
-        description: | # this will include new lines to allow paragraphs
-          <mark>OneDay 프로젝트</mark>
-          - 멋쟁이사자처럼 9기 해커톤
-          - 인스타그램 원데이클래스 Post들을 크롤링해서 분류하여 종합하여 보여주는 웹 서비스
-          - Skill Stack
-            - Node.js(Express), Javascript, Html/Css, MySQL
-          - 팀 구성 : Frontend 2, Backend 1, Crawling 1
-            - 나의 역할 : FrontEnd (HTML/CSS 이용해서 웹페이지 구현, Javascript, Axios 이용해서 data 처리)
+          - Contribution
+            - User, Post, Comment Rest API 개발
 
   - title: Experiences
     layout: list
     content:
       - layout: top-left
-        title: 프로그래머스 백엔드 데브코스 2기
+        title: 프로그래머스 백엔드 <br/> 데브코스 2기
         # sub_title: Job title
         caption: 2022. 03. 18. ~
         link: https://programmers.co.kr/learn/courses/13478
@@ -167,7 +152,7 @@ content:
           - Java, Spring Framework, JPA, Spring Security 학습        
 
       - layout: top-left
-        title: 코드프레소 Java 웹 개발 체험단
+        title: 코드프레소 <br/> Java 웹 개발 체험단
         # sub_title: Job title
         caption: 2022. 01. 03. ~ 2022. 04. 10.
         link: https://www.codepresso.kr/specialTrack/24
@@ -175,6 +160,7 @@ content:
           <mark>code.presso에서 진행하는 Java 웹 개발 교육</mark>
           - Java, Spring Framework, MyBatis 기반의 웹 개발 학습
           - 블로그 개발 개인 프로젝트
+          - [수료증](https://docs.google.com/document/d/1UqNhqQwdIC2yCNmD1drvNU6JyKjNyB3dK4V6s3Hutvg/edit)
       
       - layout: top-left
         title: 멋쟁이사자처럼 9기
@@ -194,9 +180,8 @@ content:
         sub_title: Bachelor
         caption: 2015.03 ~ 2022.08 (졸업예정)
         description: | # this will include new lines to allow paragraphs
-          - 주전공 : 화학공학과
-          - 복수전공 : 컴퓨터학부
-        #  - 평균 학점 : 4.03 / 4.5
+          - 전공 : 화학공학과, 컴퓨터학부
+          - 평균 학점 : 4.03 / 4.5
 
 # Footer
 footer_show_references: true
